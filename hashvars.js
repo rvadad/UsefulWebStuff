@@ -43,4 +43,5 @@ function URLHash(hash) {
 		this.load();
 		return this._values[keyword];
 	};
+	return this;
 }
