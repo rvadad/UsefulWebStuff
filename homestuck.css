@@ -5,42 +5,42 @@ b, strong {
 	text-transform: uppercase;
 	font-weight: 600;
 }
-.blood.fuschia, .blood.royal {
-	color: #99004d;
-}
-.blood.violet, .blood.sea {
-	color: #6a006a;
-}
-.blood.purple {
-	color: #440a7f;
-}
-.blood.indigo {
-	color: #0021cb;
-}
-.blood.cerulean {
-	color: #004182;
-}
-.blood.teal {
-	color: #008282;
-}
-.blood.jade {
-	color: #078446;
-}
-.blood.olive {
-	color: #416600;
-}
-.blood.lime {
-	color: #658200;
-}
-.blood.yellow {
-	color: #a1a100;
-}
-.blood.bronze {
-	color: #a25203;
+.blood.red, .blood.mutant {
+	color: #ff0000;
 }
 .blood.burgundy {
 	color: #a10000;
 }
-.blood.red, .blood.mutant {
-	color: #ff0000;
+.blood.bronze {
+	color: #a25203;
+}
+.blood.yellow {
+	color: #a1a100;
+}
+.blood.lime {
+	color: #658200;
+}
+.blood.olive {
+	color: #416600;
+}
+.blood.jade {
+	color: #078446;
+}
+.blood.teal {
+	color: #008282;
+}
+.blood.cerulean {
+	color: #004182;
+}
+.blood.indigo {
+	color: #0021cb;
+}
+.blood.purple {
+	color: #440a7f;
+}
+.blood.violet, .blood.sea {
+	color: #6a006a;
+}
+.blood.fuschia, .blood.royal {
+	color: #99004d;
 }
