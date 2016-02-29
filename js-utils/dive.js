@@ -17,7 +17,12 @@ function getProperty(object, key, def) {
 }
 
 function setProperty(object, key, value){
+	'use strict';
 	if (typeof key == 'string') key = key.split('.');
-	if (key.length > 1) setProperty(object[key.shift()] = {}, key, value);
+	if (key.length > 1) {
+		let nextKey = key.shift();
+		object[nextKey] = object[nextKey] || {};
+		setProperty(object[nextKey], key, value);
+	}
 	else object[key[0]] = value;
 }
