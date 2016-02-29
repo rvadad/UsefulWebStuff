@@ -18,6 +18,6 @@ function getProperty(object, key, def) {
 
 function setProperty(object, key, value){
 	if (typeof key == 'string') key = key.split('.');
-	if (key.length > 1) SetProperty(object[key.shift()] = {}, key, value);
+	if (key.length > 1) setProperty(object[key.shift()] = {}, key, value);
 	else object[key[0]] = value;
 }
