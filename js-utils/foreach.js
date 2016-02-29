@@ -1,6 +1,7 @@
 // Callback signature: element, index, whole, isArray
 // When the target is neither an array nor an object:
 // element === whole && index === -1 && isArray === false
+// An example is available at http://jsfiddle.net/PrincessRTFM/m5uy6kuz/
 function foreach(target, callback) {
 	'use strict';
 	if (typeof target != 'object') {
